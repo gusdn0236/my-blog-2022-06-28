@@ -1,14 +1,17 @@
 import { Link } from "gatsby";
 import React from "react";
-import Head from "../components/head";
+import Layout from "../components/layout"
 
 
 function TestPage() {
-    return <main>
+    return(
+        <Layout>
         <title>테스트페이지</title>
-        <Head/>
-        <h1>테스트 페이지 입니다.</h1>
-    </main>
+        
+            <h1>테스트 페이지 입니다.</h1>
+            </Layout>
+   
+    )
 }
   
 export default TestPage;

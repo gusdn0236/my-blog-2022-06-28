@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
-import Head from "../components/head"
+import Layout from "../components/layout"
 
 // styles
 
@@ -10,11 +10,13 @@ import Head from "../components/head"
 // markup
 const IndexPage = () => {
   return (
-    <main>
+  
+      <Layout>
       <title>Home Page!@!@!@!@!@</title>
-      <Head/>
-      <h1>hii</h1>
-    </main>
+      
+        <h1>hii</h1>
+        </Layout>
+    
   )
 }
 
