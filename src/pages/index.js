@@ -1,5 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
+import Head from "../components/head"
 
 // styles
 
@@ -11,12 +12,7 @@ const IndexPage = () => {
   return (
     <main>
       <title>Home Page!@!@!@!@!@</title>
-      <div style={{ display: 'flex',  gap:20}}>
-            <Link to="/">home</Link>
-            <Link to="/about">about</Link>
-            <Link to="/test">test</Link>
-            <Link to="/test-space">test-space</Link>
-        </div>
+      <Head/>
       <h1>hii</h1>
     </main>
   )
